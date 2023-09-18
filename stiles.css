@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* VARIABLES PARA COLORES */
+
+:root {
+    /* Primary colors */
+    --primary-dark-cyan: hsl(158, 36%, 37%);
+    --primary-cream: hsl(30, 38%, 92%);
+
+    /* Neutral colors */
+    --neutral-very-dark-blue: hsl(212, 21%, 14%);
+    --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+    --neutral-white: hsl(0, 0%, 100%);
+  }
+
+  /* FONTS */
+    /* 
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif; 
+    */
+
+
+
+
+
+body {
+    
+}
+    .contenedorPrincipal {
+        background-color: var(--primary-cream);
+        width: 375px;
+        height: 665px;
+        margin: 0 auto;
+        padding: 25px 15px;
+
+
+    }
+
+        .contenedorImagen{
+            
+        }
+            .imagenPrincipal {
+                width: 100%;
+                max-height: 240px;
+                object-fit: cover;
+                border-radius: 10px 10px 0 0 ;
+                
+            }
+
+    
+        .contenedorTexto{
+            width: 100%;
+            height: 370px;
+            background-color: var(--neutral-white);
+            margin-top: -5px;
+            border-radius: 0 0 10px 10px;
+            
+            
+            
+
+
+        }
+
+            h1{
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                font-size: 12px;
+                padding: 25px 0 20px 25px;
+                opacity: .5;
+                letter-spacing: 4px;
+
+            
+                 
+            }
+
+            h2{
+                font-family: 'Fraunces', serif;
+                font-weight: 700;
+                font-size: 30px;
+                padding: 0 25px;
+
+                
+
+            }
+
+            .texto{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                padding: 15px 25px ;
+                
+            }
+
+            .precioReal{
+                font-family: 'Fraunces', serif;
+                color: var(--primary-dark-cyan);
+                font-size: 25px;
+                padding: 20px 25px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+            }
+
+            span{
+                font-family: 'Fraunces', serif;
+                color: black;
+                font-size: 12px;
+                padding: 0 20px;
+                opacity: .5;
+                text-decoration: line-through;
+                
+            }
+
+            .contenedorBoton{
+                display: flex;
+                justify-content: center;
+
+            }
+
+            button {
+                width: 295px;
+                height: 50px;
+                
+            }
+
+
+
+
+
+
+
+
+
+    .attribution { 
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%); 
+    }
+
+
+    
