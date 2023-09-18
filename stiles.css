@@ -147,7 +147,7 @@
 
 
 /* Estilos para pantallas más grandes */
-@media (min-width: 800px) {
+@media (min-width: 1440px) {
 
     body {
         background-color: var(--primary-cream);
